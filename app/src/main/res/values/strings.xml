@@ -1,0 +1,164 @@
+<resources>
+    //default
+    <string name="app_name">TARUMT Marketplace</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="preference_file_key">user_prefs</string>
+
+    //Login and Register
+    <string name="wrong_domain">You are not using the school email address. Please check and try again.</string>
+    <string-array name="branches">
+        <item>Kuala Lumpur</item>
+        <item>Penang</item>
+        <item>Perak</item>
+        <item>Pahang</item>
+        <item>Johor</item>
+        <item>Sabah</item>
+    </string-array>
+
+    //Admin
+
+    //Product
+    <string name="myr">RM</string>
+    <string name="buy">Buy</string>
+    <string name="productTotal">Product Total</string>
+    <string name="shippingTotal">Shipping Total</string>
+    <string name="sst">SST</string>
+    <string name="totalPayment">Total Payment</string>
+    <string name="checkout">Checkout</string>
+    <string name="placeOrder">Place Order</string>
+    <string name="productName">Product Name</string>
+    <string name="productDescription">Product Description</string>
+    <string name="productPrice">Product Price</string>
+    <string name="productStock">Product Stock</string>
+    <string name="addProduct">Add Product</string>
+    <string name="ratingDescription">Rating Description</string>
+    <string name="postProduct">Post Product</string>
+    <string name="review">Review</string>
+    <string name="productQuality">Product Quality</string>
+    <string name="postComment">Post Comment</string>
+    <string name="sellerRating">Seller Rating</string>
+    <string name="addImage">+ Add Image</string>
+    <string name="image">Image</string>
+    <string name="adminTab">Admin</string>
+    <string name="userTab">User</string>
+    <string name="new_admin">New Admin</string>
+    <string name="account_filter">Account filter</string>
+    <string-array name="paymentOption">
+        <item>Pay by Cash</item>
+        <item>Pay by E-wallet</item>
+        <item>Pay by Debit/Credit Card</item>
+    </string-array>
+    <string-array name="deliveryOption">
+        <item>Delivery</item>
+        <item>Pick Up</item>
+    </string-array>
+    <string-array name="deliveryAddress">
+        <item>132, Jalan Abu</item>
+        <item>129, Jalan Ali</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //Product
+    <string-array name="category">
+        <item>Electronics</item>
+        <item>Housing</item>
+        <item>Education</item>
+        <item>Sport</item>
+    </string-array>
+
+    <string-array name="condition">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="electronicsType">
+        <item>--Select--</item>
+        <item>Desktop</item>
+        <item>Laptop &amp; Notebook</item>
+        <item>Tablet</item>
+        <item>Camera</item>
+        <item>Wearable</item>
+        <item>Mobile phone</item>
+        <item>Audio &amp; Sound</item>
+        <item>Printer</item>
+    </string-array>
+
+    <string-array name="housingType">
+        <item>--Select--</item>
+        <item>Furniture</item>
+        <item>Lighting &amp; Fans</item>
+        <item>Bedding &amp; Towels</item>
+        <item>Kitchenware &amp; Tableware</item>
+    </string-array>
+
+    <string-array name="educationType">.
+        <item>--Select--</item>
+        <item>Books</item>
+        <item>Stationery</item>
+    </string-array>
+
+    <string-array name="sportType">
+        <item>--Select--</item>
+        <item>Football</item>
+        <item>Basketball</item>
+        <item>Badminton</item>
+        <item>Table Tennis</item>
+        <item>Running</item>
+        <item>Swimming</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="faculty">
+        <item>FAFB</item>
+        <item>FSSH</item>
+        <item>FCCI</item>
+        <item>FOAS</item>
+        <item>FOCS</item>
+        <item>FOBE</item>
+    </string-array>
+
+    //User
+    <string name="profile">Profile</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log Out</string>
+
+    <string name="dark_mode">Dark Mode</string>
+    <string name="notifications">Notifications</string>
+    <string name="dark_key">DarkModeKey</string>
+    <string name="notif_key">NotificationKey</string>
+
+    <string name="buy_history">Buy</string>
+    <string name="sell_history">Sell</string>
+
+    <string name="reset">Reset</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="edit_profile">Edit Profile</string>
+
+    //ChatBox
+
+    //Google
+    <string name="default_web_client_id">1046772503525-5vsl22a19jmpfae9ohk8d6rntrri2s19</string>
+    <string name="category">Category</string>
+    <string name="electronics">Electronics</string>
+    <string name="housing">Housing</string>
+    <string name="Education">education</string>
+    <string name="sport">Sport</string>
+    <string name="specification">Specification</string>
+    <string name="description">Description</string>
+    <string name="chatWithSeller">Chat With Seller</string>
+    <string name="address">Address</string>
+    <string name="productDetail">Product Detail</string>
+    <string name="rateSeller">Rate Seller</string>
+</resources>

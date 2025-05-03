@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/adminAccountFragment"
+        android:icon="@drawable/baseline_switch_account_24"
+        android:title="Account"/>
+
+    <item
+        android:id="@+id/adminProductFragment"
+        android:icon="@drawable/baseline_store_24"
+        android:title="Product"/>
+
+    <item
+        android:id="@+id/adminProfileFragment"
+        android:icon="@drawable/baseline_account_box_24"
+        android:title="Me"/>
+
+</menu>

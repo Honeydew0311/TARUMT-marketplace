@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.sell.SellPendingFragment">
+
+    <LinearLayout
+        android:id="@+id/llSellPendingHeader"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/user_themes"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <SearchView
+            android:id="@+id/svSellPending"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/edit_text_background_sell"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search here" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        android:src="@drawable/baseline_add_24"
+        app:backgroundTint="@color/user_themes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@color/lightGray" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabElectronics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:src="@drawable/baseline_electronics_24"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/fabAdd"
+        app:layout_constraintEnd_toEndOf="@+id/fabAdd" />
+
+    <TextView
+        android:id="@+id/tvElectronics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/fab_text_bg"
+        android:elevation="8dp"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="8dp"
+        android:text="Electronics"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/fabElectronics"
+        app:layout_constraintEnd_toStartOf="@+id/fabElectronics"
+        app:layout_constraintTop_toTopOf="@+id/fabElectronics" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabEducation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:src="@drawable/baseline_book_24"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/fabElectronics"
+        app:layout_constraintEnd_toEndOf="@+id/fabElectronics" />
+
+    <TextView
+        android:id="@+id/tvEducation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/fab_text_bg"
+        android:elevation="8dp"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="8dp"
+        android:text="Education"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/fabEducation"
+        app:layout_constraintEnd_toStartOf="@+id/fabEducation"
+        app:layout_constraintTop_toTopOf="@+id/fabEducation" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabHousing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:src="@drawable/baseline_furniture_24"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/fabEducation"
+        app:layout_constraintEnd_toEndOf="@+id/fabEducation" />
+
+    <TextView
+        android:id="@+id/tvHousing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/fab_text_bg"
+        android:elevation="8dp"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="8dp"
+        android:text="Housing"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/fabHousing"
+        app:layout_constraintEnd_toStartOf="@+id/fabHousing"
+        app:layout_constraintTop_toTopOf="@+id/fabHousing" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:src="@drawable/baseline_sports_24"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/fabHousing"
+        app:layout_constraintEnd_toEndOf="@+id/fabHousing" />
+
+    <TextView
+        android:id="@+id/tvSports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/fab_text_bg"
+        android:elevation="8dp"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="8dp"
+        android:text="Sports"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/fabSports"
+        app:layout_constraintEnd_toStartOf="@+id/fabSports"
+        app:layout_constraintTop_toTopOf="@+id/fabSports" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSellPending"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llSellPendingHeader" />
+
+    <View
+        android:id="@+id/vSellPending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#66000000"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

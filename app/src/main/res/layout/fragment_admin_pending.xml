@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.admin.AdminPendingFragment">
+
+    <ScrollView
+        android:id="@+id/svPending"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:id="@+id/tlPending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/trPending"
+                android:background="@drawable/table_border">
+
+                <TextView
+                    android:id="@+id/tvHeaderPending1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="No." />
+
+                <TextView
+                    android:id="@+id/tvHeaderPending2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Post ID" />
+
+                <TextView
+                    android:id="@+id/tvHeaderPending3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Student ID" />
+
+                <TextView
+                    android:id="@+id/tvHeaderPending4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Status" />
+
+                <TextView
+                    android:id="@+id/tvHeaderPending5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:text="Action" />
+            </TableRow>
+
+            <!-- Add more rows and views as needed -->
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

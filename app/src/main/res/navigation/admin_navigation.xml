@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/adminAccountFragment">
+    <fragment
+        android:id="@+id/adminAccountFragment"
+        android:name="com.mad.assignment.account_UI.AdminAccountFragment"
+        android:label="AdminAccountFragment" />
+    <fragment
+        android:id="@+id/adminProductFragment"
+        android:name="com.mad.assignment.product_UI.AdminProductFragment"
+        android:label="AdminProductFragment" />
+    <fragment
+        android:id="@+id/adminProfileFragment"
+        android:name="com.mad.assignment.AdminProfileFragment"
+        android:label="AdminProfileFragment" />
+</navigation>

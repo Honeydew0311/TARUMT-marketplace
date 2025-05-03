@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1046772503525",
+    "firebase_url": "https://tarumt-marketplace-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tarumt-marketplace",
+    "storage_bucket": "tarumt-marketplace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046772503525:android:534bd0895a419def40150c",
+        "android_client_info": {
+          "package_name": "com.mad.assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046772503525-5vsl22a19jmpfae9ohk8d6rntrri2s19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mad.assignment",
+            "certificate_hash": "e284544043d53b5b3b4b7b42ed92465de473d38f"
+          }
+        },
+        {
+          "client_id": "1046772503525-c5uecqb9ea7viqn4vv69o2e5973jf57r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTf5hMc8emxLGHmhJqqpXg8U8dBdiWF6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046772503525-c5uecqb9ea7viqn4vv69o2e5973jf57r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
