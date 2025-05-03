@@ -1,2 +1,2 @@
 # TARUMT marketplace
- It is a mobile application 
+ It is assignment for mobile application named TARUMT marketplace.
